@@ -24,6 +24,10 @@ total_summary <- Suspension_Coil %>% summarize(Mean=mean(PSI),Median=median(PSI)
 lot_summary <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI),.groups ='keep')
 ```
 
-
+# Deliverable 3
+```{r}
+plt <- ggplot(Suspension_Coil,aes(x=PSI))
+plt + geom_density()
+```
 
 
