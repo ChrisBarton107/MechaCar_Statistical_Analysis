@@ -1,8 +1,8 @@
 
-# Deliverable 1
 ```{r}
 library(tidyverse)
 ```
+# Deliverable 1
 ```{r}
 MechaCar_mpg <- read_csv("Desktop/Data Analysis/MechaCar_Statistical_Analysis/MechaCar_mpg.csv")
 ```
@@ -26,8 +26,14 @@ lot_summary <- Suspension_Coil %>% group_by(Manufacturing_Lot) %>% summarize(Mea
 
 # Deliverable 3
 ```{r}
-plt <- ggplot(Suspension_Coil,aes(x=PSI))
-plt + geom_density()
+t.test(Suspension_Coil$PSI,mu = 1500) 
 ```
-
-
+```{r}
+t.test(subset(Suspension_Coil,Manufacturing_Lot=="Lot1")$PSI,mu = 1500) 
+```
+```{r}
+t.test(subset(Suspension_Coil,Manufacturing_Lot=="Lot2")$PSI,mu = 1500)
+```
+```{r}
+t.test(subset(Suspension_Coil,Manufacturing_Lot=="Lot3")$PSI,mu = 1500) 
+```
