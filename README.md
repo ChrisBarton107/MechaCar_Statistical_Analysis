@@ -26,4 +26,4 @@ The analysis used the R programming language to analyze data from the automotive
 
 
 ## Study Design: MechaCar vs. Competition
-
+Fuel efficiency and cost maintenance are two of the most important factors in the automotive decision making process. Constructing a null hypothesis stating there is no difference between MechaCar and the competition and an alternative hypothesis stating differences in fuel efficiency and cost maintenance would begin the analysis. The analysis can be conducted using a t-test
