@@ -10,10 +10,9 @@ The analysis used the R programming language to analyze data from the automotive
 
 ## Summary Statistics on Suspension Coils
 <img src="https://github.com/ChrisBarton107/MechaCar_Statistical_Analysis/blob/main/Resources/Total_Summary.png" alt="drawing" width="1000"/>
-- Variance was calculated at 62.29356
+- Variance was calculated at 62.29356<br>
 
 <img src="https://github.com/ChrisBarton107/MechaCar_Statistical_Analysis/blob/main/Resources/Lot_Summary.png" alt="drawing" width="1000"/>
-- The p-value of 0.06915 is above the 0.05 significance threshold, providing reason to not reject the null hypothesis
 
 ## T-Tests on Suspension Coils
 <img src="https://github.com/ChrisBarton107/MechaCar_Statistical_Analysis/blob/main/Resources/All_Lots.png" alt="drawing" width="1000"/>
