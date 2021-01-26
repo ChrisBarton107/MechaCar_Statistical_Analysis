@@ -10,10 +10,9 @@ The analysis used the R programming language to analyze data from the automotive
 
 ## Summary Statistics on Suspension Coils
 <img src="https://github.com/ChrisBarton107/MechaCar_Statistical_Analysis/blob/main/Resources/Total_Summary.png" alt="drawing" width="1000"/>
-- Variance was calculated at 62.29356<br>
-
 <img src="https://github.com/ChrisBarton107/MechaCar_Statistical_Analysis/blob/main/Resources/Lot_Summary.png" alt="drawing" width="1000"/>
-
+- Variance was calculated at 62.29356<br>
+- Lot 1 and Lot 2 are within design specifications while Lot 3 is outside of design specifications
 ## T-Tests on Suspension Coils
 <img src="https://github.com/ChrisBarton107/MechaCar_Statistical_Analysis/blob/main/Resources/All_Lots.png" alt="drawing" width="1000"/>
 
@@ -22,6 +21,7 @@ The analysis used the R programming language to analyze data from the automotive
 <img src="https://github.com/ChrisBarton107/MechaCar_Statistical_Analysis/blob/main/Resources/Lot2.png" alt="drawing" width="1000"/>
 
 <img src="https://github.com/ChrisBarton107/MechaCar_Statistical_Analysis/blob/main/Resources/Lot3.png" alt="drawing" width="1000"/>
+- Lot 1 and Lot 2 are both above the significance level of 0.05 while the p-value of Lot 3 is under the significance level with a value of 0.04168
 
 
 ## Study Design: MechaCar vs. Competition
