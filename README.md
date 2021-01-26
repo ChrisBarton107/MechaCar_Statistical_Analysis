@@ -12,7 +12,8 @@ The analysis used the R programming language to analyze data from the automotive
 <img src="https://github.com/ChrisBarton107/MechaCar_Statistical_Analysis/blob/main/Resources/Total_Summary.png" alt="drawing" width="1000"/>
 <img src="https://github.com/ChrisBarton107/MechaCar_Statistical_Analysis/blob/main/Resources/Lot_Summary.png" alt="drawing" width="1000"/>
 - Variance was calculated at 62.29356<br>
-- Lot 1 and Lot 2 are within design specifications while Lot 3 is outside of design specifications
+- Lot 1 and Lot 2 are within design specifications while Lot 3 is outside of design specifications<br>
+
 ## T-Tests on Suspension Coils
 <img src="https://github.com/ChrisBarton107/MechaCar_Statistical_Analysis/blob/main/Resources/All_Lots.png" alt="drawing" width="1000"/>
 
